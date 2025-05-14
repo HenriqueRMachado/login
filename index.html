@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <style>
+        
+
+        * {
+            margin: 0%;
+        }
+
+        img {
+            margin-top: 5vh;
+            float: left;
+            width: 50%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #cadastro {
+            width: 100%;
+            background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+            height: 100vh;
+        }
+
+        ::-webkit-input-placeholder {
+            text-align: center;
+        }
+
+        #for {
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 18%;
+            margin-left: 25%;
+            border-radius: 20px;
+            height: 55vh;
+            box-shadow: 0px 3px 30px black;
+        }
+
+        #txt {
+            margin-top: 20px;
+        }
+
+        #em {
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+        }
+
+        input {
+            border-top: 0cap;
+            border-left: 0cap;
+            border-right: 0cap;
+            background-color: transparent;
+            border-color: black;
+        }
+
+        input:focus {
+            background-color: white;
+        }
+
+        input:hover {
+            transform: scale(1.1);
+        }
+
+               @media (max-width:1400px) {
+            #cadastro {
+                background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+                height: 100vh;
+                font-size: small;
+            }
+
+            #for {
+                width: 41vw;
+               margin-left: 10%;
+               height: 60vh;
+            }
+
+        }
+        
+        @media (max-width:1200px) {
+            #cadastro {
+                background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+                height: 100vh;
+                font-size: small;
+            }
+
+            #for {
+                width: 31vw;
+                margin-left: 15%;
+                height: 65vh;
+            }
+
+        }
+
+        @media (max-width:992px) {
+            #cadastro {
+                background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+                height: 100vh;
+                font-size: small;
+            }
+
+            #for {
+                height: 65%;
+                width: 31vw;
+                margin-left: 15%;
+            }
+
+        }
+
+        @media (max-width:768px) {
+            #cadastro {
+                background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+                height: 100vh;
+                font-size: small;
+            }
+
+            #for {
+                height: 65%;
+                width: 35vw;
+                margin-left: 15%;
+            }
+
+        }
+
+        @media (max-width: 576px) {
+            #cadastro {
+                background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+                height: 100vh;
+                font-size: small;
+            }
+
+            #for {
+                width: 42vw;
+                margin-left: 10%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="https://img.freepik.com/vetores-premium/ilustracao-de-desenho-animado-usuario-feminino-inserindo-login_241107-682.jpg" alt="">  
+
+         <form action="">
+
+            <div id="cadastro">
+                <div id="for">
+                    <h1 id="txt">LOGIN</h1>
+                    <h2 id="em">Informe o E-mail <br> <br> <input type="email" placeholder="Ex: usuario@gmail.com" onfocus="email()" required name="email" id="email"> </h2> <br> <br> 
+                    <h2 id="sn">Informe a Senha <br> <br> <input type="password" placeholder="Ex: 123abc" required name="" id="senha"> </h2> <br> <br>
+                    <input type="submit" name="" id="enviar" onsubmit="enviar()" required value="CONFIRMAR CADASTRO"> <br>
+                    Não possuí uma conta? <a href="img.html">Clique aqui!</a> <br>
+                    <a href="senha.html">Esqueci minha senha</a>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+
+    
+</body>
+</html>

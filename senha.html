@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDEFINIÇÃO DE SENHA</title>
+
+    <style>
+        body {
+            background-image: radial-gradient(rgb(166, 138, 206), rgb(63, 14, 111));
+            height: 100vh;
+        }
+
+        * {
+            margin: 0%;
+        }
+
+        #cor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #branco {
+            background-color: white;
+            width: 45%;
+            border-radius: 30px;
+            margin-top: 15%;
+            height: 50vh;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #for {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10vh;
+        }
+
+        input {
+            width: 22vw;
+        }
+
+        #txt {
+            width: 250px;
+        }
+
+        #enviar {
+            width: 10vw;
+            border-radius: 15px;
+            text-align: center;
+            margin-left: 25%;
+        }
+
+        input:hover {
+            transform: scale(1.1);
+        }
+
+        #campo {
+            border-top: 0cap;
+            border-left: 0cap;
+            border-right: 0cap;
+        }
+
+         #voltar {
+            color: white;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        ::placeholder {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+    <h3><a id="voltar" href="index.html">Voltar</a></h3>
+    </div>
+    <div id="cor">
+        <div id="branco">
+            <div id="for">
+                <h1>REDEFINIÇÃO DE SENHA</h1> <br>
+                <div id="txt"><p>Preencha o campo do formulário com seu email para que possamos enviar um email para a redefinição da senha.</p></div> <br>
+                    <form action="">
+                        <input id="campo" type="email" name="" placeholder="Informe seu email para recuperação" id="" required> <br> <br>
+                        <input id="enviar" type="submit" value="Enviar Email">
+                    </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
